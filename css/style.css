@@ -1,0 +1,176 @@
+* {margin: 0; padding: 0;box-sizing: border-box;}
+header{font-family: "MontserratBold", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.nav {display: flex;justify-content: flex-end; overflow: auto; padding: 15px;max-width: 81.5rem; margin: auto; width: 100%; border-bottom: 1px rgb(234, 229, 229) solid;}
+.nav-link {color: black;text-decoration: none; font-size: 15px;}
+.nav-menu {display: flex;margin-right: 40px;list-style: none;}
+.nav-menu-item {font-size: 0.8rem; margin: 0 10px; width: max-content;}
+.nav-menu-item img{height: 14px;}
+
+/* .nav-menu-link {padding: 8px 12px;border-radius: 3px;} */
+
+/* boton del menu */
+
+
+.nav-dos {display: flex;justify-content: space-between;max-width: 81.5rem;margin: 0 auto; align-items: center;border-bottom: 1px rgb(234, 229, 229) solid; padding: 0px 1rem 0px 1rem;}
+.cc{display: flex; align-items: center;}
+.nav-link-dos {color: black;text-decoration: none;}
+.logo img{height: 50px;}
+.nav-menu-dos {display: flex;list-style: none; font-weight: bolder;}
+.nav-menu-item-dos {font-size: 18px;width: max-content; padding: 1.5rem;}
+/* .nav-menu-link {padding: 8px 12px;border-radius: 3px;} */
+.cont-logo{display: flex; justify-content: end;}
+
+.nav-item-dos {color: black;text-decoration: none;}
+.nav-menu-tres {display: flex;list-style: none; float: right; gap: 10px; align-items: center;}
+
+.btn-uno{background-color: white; border-radius: 0px; padding: 0.75rem 1.3rem; border: 0px;}
+.btn-dos{background-color: white; border: 1px rgb(226,6,19) solid; color: rgb(226,6,19); border-radius: 0px; font-size: 1rem;text-transform: uppercase; padding: 0.75rem 1.3rem;}
+.btn-tres{background-color: rgb(226,6,19); border: 1px rgb(226,6,19); color: white; border-radius: 0px; font-size: 1rem;text-transform: uppercase; padding: 0.75rem 1.3rem;}
+
+
+
+
+/* boton del menu */
+.nav-toggle {color: black;background: none;border: none;padding: 0 20px;line-height: 60px;cursor: pointer;display: none;}
+.nav-toggle img{height: 30px;}
+
+  
+/* MOBILE */
+
+@media (max-width: 1200px) {
+
+  /* .header {height: 80px;} */
+  /* .logo {font-size: 30px;font-weight: bold;padding: 0 40px;line-height: 80px;} */
+  .nav-menu-dos {
+    flex-direction: column;
+    align-items: center;
+    background-color: #2c3e50;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    transition: left 0.3s;
+  }
+  .nav-menu-tres {    flex-direction: column;
+    align-items: center;list-style: none; float: right; gap: 10px; position: fixed;     top: 80px;
+    width: 100%;
+    height: 100%;
+    left: 100%;}
+  /* .nav-menu-item {line-height: 70px;} */
+  .nav-toggle {display: block;}
+  .nav-toggle img{display: block; align-items: center;}
+
+  .nav-menu_visible {left: 0;}
+  /* .nav-toggle:focus:not(:focus-visible) {outline: none;} */
+}
+
+.redes{position: fixed; background-color: black; top: 30%; color: white; font-size: 14px; margin: auto; text-align: center; width: 4rem; left: 0px; padding: 0.75rem 0.0625rem 0rem 0.125rem; z-index: 99;}
+.redes-lista{color: white; margin: 10px; list-style: none; }
+.icon-red img{height: 30px;}
+
+
+.menu1 {
+    width: 100%;
+    height: 80px;
+  }
+  
+  /* seccion 2 */
+  
+  .seccion1 {
+    height: 800px;
+    width: 100%;
+  }
+  
+  /* parte principal nombre/foto/precio*/
+  .producto {
+    height: 33rem;
+    width: 100%;
+    position: relative;
+    padding-bottom: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 100px;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+  /*contenedor de las flechas y la galeria*/
+  .contenedor1 {
+    position: relative;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .mySlides {
+    display: none;
+  }
+  .mySlides img{
+
+    width: 100%;
+    height: 33rem;
+    object-fit: cover;
+
+  }
+  
+  /*flechas*/
+  .flechaI {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transform: rotate(-45deg); /*importante para que este girado el cuadrado*/
+  }
+  
+  .flechaI::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-width: 5px 0 0px 5px; /*con esto elegimo la direccion de la flecha*/
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    gap: 100px;
+  }
+  .flechaD {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transform: rotate(-45deg); /*importante para que este girado el cuadrado*/
+  }
+  
+  .flechaD::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-width: 0 5px 5px 0;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    gap: 100px;
+  }
+  
+  /* putos de las imagenes */
+  .puntos {
+    content: "";
+    margin: 0 20px 0px 20px;
+    background: white;
+    border: solid;
+    border-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    transition: background-color 0.6s ease;
+  }
+  .boton11 {
+    background: white;
+    border: none;
+    font-size: 60px;
+  }
+  .active,
+  .puntos:hover {
+    background-color: black;
+  }
+  
