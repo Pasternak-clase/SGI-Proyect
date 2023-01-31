@@ -65,10 +65,33 @@ header{font-family: "MontserratBold", "Helvetica Neue", Helvetica, Arial, sans-s
   /* .nav-toggle:focus:not(:focus-visible) {outline: none;} */
 }
 
-.redes{position: fixed; background-color: black; top: 30%; color: white; font-size: 14px; margin: auto; text-align: center; width: 4rem; left: 0px; padding: 0.75rem 0.0625rem 0rem 0.125rem; z-index: 99;}
-.redes-lista{color: white; margin: 10px; list-style: none; }
-.icon-red img{height: 30px;}
+.redes{position: fixed; background-color: black; top: 30%; color: white; font-size: 14px; margin: auto; text-align: center; width: 3.5rem; left: 0px; padding: 0.75rem 0.0625rem 0rem 0.125rem; z-index: 99;}
+.redes-lista{color: white; margin: 10px; list-style: none;}
+.icon-red img{height: 25px; margin-bottom: 10px;}
 
+.nav-interior-uno{
+	display:none;
+}  
+.nav-interior-uno li{
+		display: flex;
+		
+		} 
+
+.nav-interior-uno li a{
+	text-decoration: none;
+}          
+	
+.nav-menu-item-dos:hover .nav-interior-uno{
+		display:flex;
+		padding: 40px;
+		position: absolute;
+		background-color: white;
+		height: 100px;
+		z-index: 100;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
 
 .menu1 {
 	width: 100%;
@@ -99,10 +122,13 @@ header{font-family: "MontserratBold", "Helvetica Neue", Helvetica, Arial, sans-s
   /*contenedor de las flechas y la galería*/
   .contenedor1 {
 	position: relative;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	gap: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 
   }
   .mySlides {
@@ -155,12 +181,11 @@ header{font-family: "MontserratBold", "Helvetica Neue", Helvetica, Arial, sans-s
   /* puntos de las imágenes */
   .puntos {
 	content: "";
-	margin: 0 20px 0px 20px;
-	background: white;
+	background: red;
 	border: solid;
-	border-color: black;
-	width: 15px;
-	height: 15px;
+	border: 0px;
+	width: 1rem;
+	height: 1rem;
 	border-radius: 100%;
 	transition: background-color 0.6s ease;
   }
@@ -174,3 +199,9 @@ header{font-family: "MontserratBold", "Helvetica Neue", Helvetica, Arial, sans-s
 	background-color: black;
   }
 
+
+/* Sección 6 */
+.ingreso-minimo-vital
+{
+	background-image: url("./img/ingreso-minimo-vital")
+}

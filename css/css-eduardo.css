@@ -1,0 +1,107 @@
+.principal{
+    background-color: white;
+    display: flex;
+    font: 14px;
+    padding-left:15%;
+    padding-right:15%;
+    margin: auto;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+   }
+   .generalYou{
+       margin: auto;
+       padding-right: 50px;
+   }
+   .youtube{
+      position: relative;
+   }
+   .youtube::before{
+       background-color: #e20613;
+       position:absolute;
+       height: 4px;
+       width: 51px;
+       content: "";  
+       top: 100%;    
+   }
+   .youtube::after{
+       content: "en YOUTUBE";
+       color: #e20613;
+   }
+   .twitter{
+       position: relative;  
+   }
+   .twitter::before{
+       background-color: #e20613;
+       position:absolute;
+       height: 4px;
+       width: 51px;
+       content: "";  
+       top: 100%; 
+   }
+   .portales{
+       position: relative;
+       font: 14px;  
+   }
+   .portales::before{
+       background-color: #e20613;
+       position:absolute;
+       height: 4px;
+       width: 51px;
+       content:"";  
+       top: 100%;    
+   }
+   .portAnt{
+       background-color: white;
+       display: flex;
+       font: 14px;
+       padding-left:15%;
+       padding-right:15%;
+       margin: auto;
+       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   }
+   .imagen{
+    width: 15rem;
+    padding-right: 100px;
+   }
+   
+   .imagenBack{
+    width: 15rem;
+       padding-right: 100px;
+       padding-top: 15px;
+    }
+   
+   .imagenTw{
+       max-width: 350px;
+       height: auto;
+   }
+   .imgr{
+       background-color: white;
+       display: flex;
+       flex-wrap: wrap;
+       font: 14px;
+       padding-left:15%;
+       padding-right:15%;
+       margin: auto;
+       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     }
+     .aclass{
+       color: #e20613;
+       text-decoration: none;
+     }
+     .txTw{
+       color: #e20613;
+     }
+     .caseTw{
+       display: flex;
+       flex-wrap: wrap;
+     }
+   .imgTW{
+       margin-left: 240px;
+       height: 50px;
+       width: 50px;
+   }
+     .textTw{
+       padding-right: 80px;
+     }
+     
+   

@@ -1,83 +1,85 @@
 .donar {
-    font-weight: bold;
-    font-size: xx-large;
-  }
-  
-  .dona {
-    background-color: red;
-    color: white;
-    display: block;
-    width: 85px;
-    height: 40px;
-  }
-  
-  .font-pro {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
-  }
-  
-  .proyedona {
-    display: flex;
-    flex-direction: row;
-  
-  }
-  
-  
-  .banner {
-    position: absolute;
-    top: 400px;
-  }
-  
-  .ucra {
-    margin-right: 30px;
-  }
-  
-  .anciana {
-    margin-right: 30px;
-  }
-  
-  .hr {
-    color: red;
-    width: 100px;
-    position: absolute;
-    left: 10px;
-    top: 60px;
-  }
-  
-  .botonproye {
-    background-color: white;
-    border-color: red;
-    color: red;
-    position: absolute;
-    top: 500px;
-    left: 35%;
-    height: 50px;
-    width: 300px;
-    font-size: larger;
-  }
-  .banner{
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.dona {
+  background-color: red;
+  color: white;
+  display: block;
+  width: 85px;
+  height: 40px;
+}
+
+.font-pro {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+}
+
+.proyedona {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner {   
+  position: absolute;
+  top: 400px;
+}
+
+.ucra {
+  margin-right: 30px;
+}
+
+.anciana {
+  margin-right: 30px;
+}
+
+.hr {
+  color: red;
+  width: 100px;
+  display: flex;
+    
+}
+.flexboton{
+display: flex;
+flex-direction: row;
+}
+
+.botonproye {
+  background-color: white;
+  border-color: red;
+  color: red;
+  height: 50px;
+  width: 300px;
+  font-size: larger;
+}
+
+.banner {
   position: relative;
   top: 200px;
-  }
-  .textcerca{
-    position: relative;
-    color: white;
-    font-size: 60px;
-    bottom: 250px;
-  }
-  .textpulsar{
-    position: relative;
-    color: white;
-    font-size: 30px;
-    bottom: 70px;
-    font-weight: bold;
-  }
-  .asist{
-    position: relative;
-    bottom: 50px;
-    background-color: red;
-    color: white;
-    display: block;
-    width: 200px;
-    height: 40px;
-  }
+}
+
+.textcerca {
+  position: relative;
+  color: white;
+  font-size: 60px;
+  bottom: 250px;
+}
+
+.textpulsar {
+  /* position: relative; */
+  color: white;
+  font-size: 30px;
+  bottom: 70px;
+  font-weight: bold;
+}
+
+.asist {
+  /* position: relative; */
+  bottom: 50px;
+  background-color: red;
+  color: white;
+  display: block;
+  width: 200px;
+  height: 40px;
+}
