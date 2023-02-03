@@ -38,14 +38,6 @@
     margin-right: 50px;
     height: 800px;
 }
-      
-.mas_campanas{
-
-
-
-
-}
-
 .news_img { 
     width: 100%;
     height: auto;
@@ -65,5 +57,12 @@
     font-size: 20px;
     color: red;
 }
+/* .banner{
+  width: auto;
+  height: 300px;
+} */
+
+.cont-img-tres{ height: 200px; width: auto; background: url(./../img/Transparencia_v2.png); background-repeat: no-repeat; background-size: cover;}
+/* .cont-img-tres .img{ background-image: url(./img/Transparencia_v2.png);} */
 
 
