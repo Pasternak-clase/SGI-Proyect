@@ -85,4 +85,27 @@
         font-size: 20px;
         color: red;
     }
+
+    .notices_button {
+
+        border-color: red;
+        color: red;
+        padding: 25px;
+        text-align: center;
+        justify-content: center;
+        margin: 4px 2px;
+        cursor: pointer;   
+        width: 140px;
+        height: 80px;
+    }
+
+    .bottom_image_title {
+
+        font-size: 70px;
+        position: absolute;
+        padding-top: 20px;
+        color: white;
+        padding-left: 40px;
+    }
+
   
