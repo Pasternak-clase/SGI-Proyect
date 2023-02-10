@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="es">
+    <title>Formulario eduardo</title>
+    <link rel="stylesheet" href="./../css/css-eduardo2.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2? familia= Montserrat:ital,peso@0,300;1,600 & display=swap');
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>
+            <h2 class="tittle"> HAZTE SOCIO/A </h2>
+        </div>
+        <div class="principal">
+            <div class="semiprincipal">
+                <img src="./../img/Barra de progreso.PNG" alt="Barra de progreso de formulario">
+            </div>
+            <form action="">
+                <div class="buttonArea">
+
+                    <div>
+                        <input class="button" type="button" onclick="alert" value="Soy Particular">
+                    </div>
+                    <div>
+                        <input class="button" type="button" onclick="alert('Empresa')" value="Soy Empresa">
+                    </div>
+                </div>
+                <div class="formulario">
+                    <div class="dformulario">
+                        <label for="name">Nombre <span class="ast">*</span></label><br>
+                        <input class="indformulario" maxlength="50" type="text" id="name" name="name" value="" required>
+                    </div>
+                    <div class="dformulario">
+                        <label for="primerApellido">Primer apellido <span class="ast">*</span> </label><br>
+                        <input class="indformulario" type="text" id="primerApellido" name="primerApellido" value=""
+                            required>
+                    </div>
+                    <p></p>
+                    <div class="dformulario">
+                        <label for="segundoApellido">Segundo apellido </label><br>
+                        <input class="indformulario" type="text" id="segundoApellido" name="segundoApellido" value=""
+                            required>
+                    </div>
+                    <div class="dformulario">
+                        <label for="fnacimiento">Fecha de nacimiento <span class="ast">*</span> </label><br>
+                        <input class="indformulario" type="month" id="fnacimiento" name="fnacimiento">
+                    </div>
+                    <div class="dformulario">
+                        <label for="tdocumento">Tipo de documento <span class="ast">*</span> </label><br>
+                        <input class="indformulario" list="tdocumento" required>
+                        <datalist id="tdocumento">
+                            <option value="Número Identificación Fiscal">
+                            <option value="Número Identificación Extrangeros">
+                            <option value="Pasaporte">
+                        </datalist>
+                    </div>
+                    <div class="dformulario">
+                        <label for="ndocumento">Número del documento <span class="ast">*</span> </label><br>
+                        <input class="indformulario" type="text" id="ndocumento" name="ndocumento" value="" required>
+                    </div>
+                    <div class="dformulario">
+                        <label for="tgenero">Sexo <span class="ast">*</span> </label><br>
+                        <input class="indformulario" list="tgenero" required>
+                        <datalist id="tgenero">
+                            <option value="Hombre">
+                            <option value="Mujer">
+                        </datalist>
+                    </div>
+                    <div class="dformulario">
+                        <label for="phone">Teléfono de contacto <span class="ast">*</span> </label><br>
+                        <input class="indformulario" type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="dformulario">
+                        <label for="idioma">Idioma comunicados <span class="ast">*</span> </label><br>
+                        <input class="indformulario" list="idioma" required>
+                        <datalist id="idioma">
+                            <option value="Castellano">
+                            <option value="Catalán">
+                        </datalist>
+                    </div>
+                    <div class="backformulario">
+                        <label for="email">Correo Electronico <span class="ast">*</span> </label><br>
+                        <input class="indformulario" type="email" id="email" name="email" required>
+                    </div>
+                    <div class="backformulario">
+                        <label for="email">Repite el correo electrónico <span class="ast">*</span> </label><br>
+                        <input class="indformulario" type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="siguienteAlig">
+                    <input class="siguiente" type="submit" value="Siguiente">
+                </div>
+                <br>
+                <br>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
