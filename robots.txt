@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /admin/
 Disallow: /wp-admin/
 Disallow: /
-Sitemap: https://www2.cruzroja.es//sitemap.xml
+Sitemap: https://www2.cruzroja.es/sitemap.xml
