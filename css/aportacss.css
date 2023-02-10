@@ -1,0 +1,75 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor{
+    background-color: white;  
+    width: 37%;     
+    position: absolute;
+    left: 150px; 
+    height: 730px;
+}
+.gracias{
+    margin-left: 40px;
+}
+.nombre{
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    margin-left: 40px;
+}
+.apellido{
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    margin-left: 25px;
+}
+.mail{
+    margin-top  : 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 435px;
+    font-size: large;
+    margin-left: 40px;
+}
+.mailrepeat{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 435px;
+    font-size: large;
+    margin-left: 40px;
+}
+.telephone{
+    height: 40px;
+    width: 435px;
+    font-size: large;
+    margin-left: 40px;
+}
+.taxcheck{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+.privacy{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.consent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.donatebutton{
+    width: 435px;
+    height: 50px;      
+    color: white;
+    margin-left: 40px;
+}
+.falsofondo{
+    margin-top: 100px;
+}
+.creditcard{
+    margin-left: 40px;
+}
